@@ -23,6 +23,12 @@ Through this project, I learned how to:
 - Bash scripting
 - Linux kernel (custom build)
 
+## 💾 Prerequisite Files
+
+You can download the necessary kernel sources, init scripts, and configuration files from the link below:
+
+👉 [Download Prerequisite Files (Google Drive)](https://drive.google.com/file/d/1idOkv4La0PR0RJm6gh2uGsji2G8bTrzR/view?usp=sharing)
+
 ## 💡 What I Learned
 This project helped me understand how low-level systems work, including:
 - Boot processes
