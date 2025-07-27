@@ -1,19 +1,40 @@
-## Introduction
+# A Simple Hardware Interface Using QEMU on Ubuntu
 
-This project is part of my second semester coursework, where I am building a simple hardware interface using **QEMU** on **Ubuntu**. I use QEMU as an emulator to run and test a minimal operating system that I compiled myself, without relying on physical hardware.
+This repository contains the only project I worked on during my **second semester** as an Informatics Engineering student. The project is titled **"A Simple Hardware Interface Using QEMU on Ubuntu"**.
 
-The main goals of this project are:
-- Simulate the boot process of a custom-compiled Linux kernel
-- Create a basic operating system structure with directories and user management
-- Explore how virtual devices, file systems, and terminal interfaces interact
-- Learn the fundamentals of how an operating system works at a low level
+## 📌 About the Project
 
-QEMU helps me achieve this by allowing:
-- Full x86 system emulation
-- Creation of a bootable `.iso` image
-- Integration with BusyBox, GRUB, and an initrd for a lightweight runtime
-- Safe and repeatable testing in a virtual environment
+The goal of this project is to build a minimal operating system environment and simulate basic hardware interaction using **QEMU** — a powerful open-source emulator — on an **Ubuntu** system.
 
-All development is done on Ubuntu, using tools such as `make`, `grub`, `busybox`, `openssl`, and `qemu-system-x86_64`. This project has been both a challenge and a valuable learning experience in understanding low-level system operations.
+Through this project, I learned how to:
+- Compile a custom Linux kernel
+- Set up a basic file system structure (bin, dev, proc, etc.)
+- Create multiple users and manage permissions
+- Build a bootable ISO image of the operating system
+- Simulate terminal behavior, login systems, and ASCII art banners
+- Emulate and test everything using QEMU without needing real hardware
+
+## 🧰 Tools & Technologies
+- QEMU
+- Ubuntu Linux
+- BusyBox
+- GRUB
+- CPIO & gzip
+- Bash scripting
+- Linux kernel (custom build)
+
+## 💡 What I Learned
+This project helped me understand how low-level systems work, including:
+- Boot processes
+- File system layouts
+- User/group management
+- System initialization and login handling
+- Virtual hardware configuration
+
+## 📁 Status
+✅ Completed  
+📅 Developed during Semester 2
 
 ---
+
+Feel free to explore the repository to see how a simple operating system can be built and run virtually using QEMU.
